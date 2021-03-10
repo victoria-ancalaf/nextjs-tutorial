@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from "../../styles/Lemon.module.css";
+import styles from "./Lemon.module.css";
 
 export const getStaticProps = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
