@@ -1,17 +1,16 @@
+import React from "react";
 import Head from "next/head";
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
 
-export default function Home() {
+const About = () => {
   return (
     <>
       <Head>
-        <title>Lemon List | Home</title>
+        <title>Lemon List | About</title>
         <meta name="keywords" content="lemons" />
       </Head>
       <div>
-        <h1 className={styles.title}>Homepage</h1>
-        <p className={styles.text}>
+        <h1>About</h1>
+        <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consequat dignissim finibus. Donec hendrerit orci sit amet nunc
           scelerisque scelerisque. Quisque fermentum erat placerat, commodo
@@ -20,7 +19,7 @@ export default function Home() {
           Pellentesque sed ultrices quam. Pellentesque id tortor imperdiet,
           iaculis elit sed, gravida elit.
         </p>
-        <p className={styles.text}>
+        <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consequat dignissim finibus. Donec hendrerit orci sit amet nunc
           scelerisque scelerisque. Quisque fermentum erat placerat, commodo
@@ -29,10 +28,9 @@ export default function Home() {
           Pellentesque sed ultrices quam. Pellentesque id tortor imperdiet,
           iaculis elit sed, gravida elit.
         </p>
-        <Link href="/lemon">
-          <a className={styles.btn}>See Lemon Listing</a>
-        </Link>
       </div>
     </>
   );
-}
+};
+
+export default About;
