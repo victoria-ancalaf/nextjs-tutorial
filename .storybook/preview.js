@@ -1,4 +1,3 @@
-import React from "react";
 import fetch from "node-fetch";
 
 export const parameters = {
