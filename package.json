@@ -20,6 +20,25 @@
     "@storybook/addon-essentials": "^6.1.21",
     "@storybook/addon-links": "^6.1.21",
     "@storybook/react": "^6.1.21",
-    "babel-loader": "^8.2.2"
-  }
+    "@testing-library/react": "^11.2.5",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoria-ancalaf/nextjs-tutorial.git"
+  },
+  "author": "victoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoria-ancalaf/nextjs-tutorial/issues"
+  },
+  "homepage": "https://github.com/victoria-ancalaf/nextjs-tutorial#readme"
 }

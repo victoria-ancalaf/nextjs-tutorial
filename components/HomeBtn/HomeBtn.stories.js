@@ -2,7 +2,6 @@ import React from "react";
 import Center from "../Center/Center";
 import HomeBtn from "./HomeBtn";
 
-
 export default {
   title: "Button/HomeBtn",
   component: HomeBtn,
