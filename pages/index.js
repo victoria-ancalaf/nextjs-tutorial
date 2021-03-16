@@ -8,10 +8,10 @@ export default function Home() {
     <>
       <Head>
         <title>Lemon List | Home</title>
-        <meta name="keywords" content="lemons" />
+        <meta name="Welcome to Lemon List" content="lemons" />
       </Head>
       <div>
-        <h1 cclassName={styles.title}>Homepage</h1>
+        <h1 className={styles.title}>Homepage</h1>
         <p className={styles.text}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consequat dignissim finibus. Donec hendrerit orci sit amet nunc
