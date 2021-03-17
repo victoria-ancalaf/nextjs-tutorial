@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   options: {
@@ -10,10 +8,4 @@ export const parameters = {
   },
 };
 
-export const loaders = [
-  async () => ({
-    currentUser: (
-      await fetch("https://jsonplaceholder.typicode.com/users")
-    ).json(),
-  }),
-];
+

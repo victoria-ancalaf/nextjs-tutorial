@@ -30,8 +30,10 @@ export default function Home() {
           Pellentesque sed ultrices quam. Pellentesque id tortor imperdiet,
           iaculis elit sed, gravida elit.
         </p>
-        <Link href="/lemon">
+        <Link href="/lemon" >
+          <div>
           <HomeBtn />
+          </div>
         </Link>
       </div>
     </>
