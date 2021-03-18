@@ -1,39 +1,31 @@
 import React from "react";
-import {
-  createMuiTheme,
-  ThemeProvider,
-  makeStyles,
-} from "@material-ui/core/styles";
-import { yellow } from "@material-ui/core/colors";
 import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
-
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: yellow[500],
-    },
-  },
-});
+import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   root: {
     textAlign: "center",
+    padding: 10,
   },
 });
 
-const HomeBtn = () => {
+const HomeBtn = React.forwardRef(({ onClick, href }, ref) => {
   const classes = useStyles();
 
   return (
     <Container className={classes.root}>
-      <ThemeProvider theme={theme}>
-        <Button variant="contained" color="primary" href="/lemon">
-          See Lemon Listing
-        </Button>
-      </ThemeProvider>
+      <Button
+        variant="contained"
+        color="secondary"
+        href={href}
+        onClick={onClick}
+        ref={ref}
+      >
+        See Lemon Listing
+      </Button>
     </Container>
   );
-};
+});
 
 export default HomeBtn;

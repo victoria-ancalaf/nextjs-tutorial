@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Container from "@material-ui/core/Container";
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
         <title>Lemon List | About</title>
         <meta name="keywords" content="lemons" />
       </Head>
-      <div>
+      <Container>
         <h1>About</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -28,7 +29,7 @@ const About = () => {
           Pellentesque sed ultrices quam. Pellentesque id tortor imperdiet,
           iaculis elit sed, gravida elit.
         </p>
-      </div>
+      </Container>
     </>
   );
 };
