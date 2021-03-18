@@ -14,7 +14,7 @@ export const getStaticProps = async () => {
 
 const useStyles = makeStyles({
   lemonLink: {
-    background: "#d7ccc8",
+    background: "#efebe9",
     display: "block",
     padding: "2px 16px",
     margin: "20px 10px",
@@ -22,9 +22,9 @@ const useStyles = makeStyles({
     "&:hover": {
       borderLeft: " 8px solid #ffeb3b",
     },
+    color: "#424242",
     textDecoration: "none",
   },
-  color: "#ffebee",
 });
 
 const Lemon = ({ lemons }) => {
@@ -33,9 +33,15 @@ const Lemon = ({ lemons }) => {
   return (
     <Container>
       <Typography>
-        <h1>All Lemons</h1>
+        <Typography color="primary" variant="h3" gutterBottom>
+          Lemons 
+        </Typography>
         {lemons.map((lemon) => (
-          <Link href={"/lemon/" + lemon.id} key={lemon.id}>
+          <Link
+            href={"/lemon/" + lemon.id}
+            key={lemon.id}
+            style={{ textDecoration: "none" }}
+          >
             <a className={classes.lemonLink}>
               <h3>{lemon.name}</h3>
             </a>

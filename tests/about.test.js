@@ -1,8 +1,10 @@
 import React from 'react';
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import About from "../pages/about";
 
-test("loads items eventually", async () => {
-  render(<About />);
+describe('About', () => {
+  test('renders About component', () => {
+    render(<About />);
+    expect(screen.getByText(/Lorem/)).toBeInTheDocument();
+  });
 });
-

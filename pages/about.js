@@ -11,26 +11,23 @@ const About = () => {
         <meta name="keywords" content="lemons" />
       </Head>
       <Container>
-        <Typography variant="h3" gutterBottom>
+        <Typography color="primary" variant="h3" gutterBottom>
           About
-          </Typography>
-          <Typography variant="body1" gutterBottom>
-          
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            consequat dignissim finibus. Donec hendrerit orci sit amet nunc
-            scelerisque scelerisque. Quisque fermentum erat placerat, commodo
-            ipsum eu, tristique nisl. Proin efficitur volutpat neque ut maximus.
-            Donec justo velit, volutpat eu rutrum ac, lobortis quis felis.
-            Pellentesque sed ultrices quam. Pellentesque id tortor imperdiet,
-            iaculis elit sed, gravida elit.
-         
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            consequat dignissim finibus. Donec hendrerit orci sit amet nunc
-            scelerisque scelerisque. Quisque fermentum erat placerat, commodo
-            ipsum eu, tristique nisl. Proin efficitur volutpat neque ut maximus.
-            Donec justo velit, volutpat eu rutrum ac, lobortis quis felis.
-            Pellentesque sed ultrices quam. Pellentesque id tortor imperdiet,
-            iaculis elit sed, gravida elit.
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+          consequat dignissim finibus. Donec hendrerit orci sit amet nunc
+          scelerisque scelerisque. Quisque fermentum erat placerat, commodo
+          ipsum eu, tristique nisl. Proin efficitur volutpat neque ut maximus.
+          Donec justo velit, volutpat eu rutrum ac, lobortis quis felis.
+          Pellentesque sed ultrices quam. Pellentesque id tortor imperdiet,
+          iaculis elit sed, gravida elit. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Aliquam consequat dignissim finibus.
+          Donec hendrerit orci sit amet nunc scelerisque scelerisque. Quisque
+          fermentum erat placerat, commodo ipsum eu, tristique nisl. Proin
+          efficitur volutpat neque ut maximus. Donec justo velit, volutpat eu
+          rutrum ac, lobortis quis felis. Pellentesque sed ultrices quam.
+          Pellentesque id tortor imperdiet, iaculis elit sed, gravida elit.
         </Typography>
       </Container>
     </>

@@ -9,18 +9,16 @@ const useStyles = makeStyles ({
   root: {
     display: "flex",
     alignItems: "flex-end",
-    justifyContent: "flex-end",
+    justifyContent: "space-between",
     borderBottom: "1px solid #ffa000",
     padding: "10px 0",
     margin: "10px auto 80px",
-  },
-  logo: {
-    marginLeft: "auto",
   },
   navLinks: {
     color: '#3e2723',
     marginLeft: "12px",
     textDecoration: "none",
+    fontWeight: "bold",
   },
 });
 
@@ -29,10 +27,10 @@ const Navbar = () => {
 
   return (
     <Container className={classes.root}>
-      <Box className={classes.logo}>
-        <Image src="/logo.png" width={98} height={90} />
+      <Box>
+        <Image src="/logo.png" width={98} height={90} alt="Lemon Logo" />
       </Box>
-      <Typography>
+      <Typography variant="button">
         <Link href="/">
           <a className={classes.navLinks}>Home</a>
         </Link>

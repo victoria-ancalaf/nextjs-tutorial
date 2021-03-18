@@ -1,7 +1,8 @@
 import { render } from "@testing-library/react";
 import Home from "../pages/index";
 
-test("loads items eventually", async () => {
-  render(<Home />);
+describe('Home', () => {
+  test('renders Home component', () => {
+    render(<Home />);
+  });
 });
-
