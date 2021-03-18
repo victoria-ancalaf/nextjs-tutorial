@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    marginTop: 20,
+    marginTop: 50,
   },
 });
 

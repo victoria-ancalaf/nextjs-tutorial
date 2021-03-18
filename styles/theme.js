@@ -15,6 +15,10 @@ const theme = createMuiTheme({
       default: '#fafafa',
     },
   },
+  typography: {
+    fontFamily: "'Nunito', sans-serif",
+    textDecoration: "none",
+  },
 });
 
 
