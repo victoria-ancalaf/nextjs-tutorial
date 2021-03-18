@@ -1,3 +1,9 @@
+import React from "react";
+import theme from "../styles/theme";
+import { StylesProvider } from "@material-ui/styles";
+import { ThemeProvider } from "@material-ui/core/styles";
+import CssBaseline from "@material-ui/core/CssBaseline";
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   options: {
@@ -8,4 +14,13 @@ export const parameters = {
   },
 };
 
-
+export const decorators = [
+  (Story) => (
+    <StylesProvider injectFirst>
+      <CssBaseline />
+      <ThemeProvider theme={theme}>
+        <Story />
+      </ThemeProvider>
+    </StylesProvider>
+  ),
+];
